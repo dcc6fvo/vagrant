@@ -3,7 +3,7 @@
 This is a more 'real world' example of vagrant configuration with virtualbox that provides 05 virtual machines: one nginx load balancer with https, two nginx http servers, a MySQL database and finally, the management machine with ansible software. Don't forget to create/use another SSH private key. The image below synthesizes the architecture:
 
 <p align="center">
-  <img src="vagrant-virtualbox-advanced-with-loadbalancer/images/ansible-advanced.drawio.png" alt="Advanced real world example of vagrant and virtualbox configuration">
+  <img src="vagrant-advanced/images/ansible-advanced.drawio.png" alt="Advanced real world example of vagrant and virtualbox configuration">
 </p>
 
 First things first!
@@ -39,16 +39,16 @@ Finally
 If everything goes normally you should be able to access nginx web server 1 (nginx-1) and nginx web server 2 (nginx-2) through nginx load balancer as as shown in the figures below:
 
 <p align="center">
-  <img src="vagrant-virtualbox-advanced-with-loadbalancer/images/nginx1.png" alt="Acessing nginx webserver through load balancer">
+  <img src="vagrant-advanced/images/nginx1.png" alt="Acessing nginx webserver through load balancer">
 </p>
 <p align="center">
-  <img src="vagrant-virtualbox-advanced-with-loadbalancer/images/nginx2.png" alt="Acessing nginx webserver through load balancer">
+  <img src="vagrant-advanced/images/nginx2.png" alt="Acessing nginx webserver through load balancer">
 </p>
 
 Virtualbox should look like:
 
 <p align="center">
-  <img src="vagrant-virtualbox-advanced-with-loadbalancer/images/virtualbox.png" alt="Virtualbox screenshot">
+  <img src="vagrant-advanced/images/virtualbox.png" alt="Virtualbox screenshot">
 </p>
   
 
