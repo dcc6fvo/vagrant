@@ -1,0 +1,17 @@
+---
+- hosts: database
+  roles:
+    - mysql
+
+- hosts: nginx-lb
+  roles:
+    - load-balance
+
+- hosts: nginx
+  roles:
+    - app-teste
+
+#- hosts: nginx
+#  roles:
+#    - app
+

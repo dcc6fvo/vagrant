@@ -1,0 +1,8 @@
+---
+www_user: 'www_user'
+www_db: 'www_db'
+www_userpass: '12345'
+www_dbip: '192.168.1.73'
+
+www_dir: '/var/www/public/'
+ssl_dir: '/etc/nginx/ssl/'
